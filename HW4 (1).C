@@ -349,5 +349,5 @@ void *ProcessJob(void *arg)
 }
 
 //contribution
-// skatkum
+// skatukam
 // edam

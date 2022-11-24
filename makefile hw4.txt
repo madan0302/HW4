@@ -1,0 +1,11 @@
+COMPILER = gcc -Wall -o  <filename> < filename.c>  -lpthread
+EXES = search
+
+compile: edam_hw4.c
+	${COMPILER} edam_hw4.c -o edam_hw4
+
+%.o: %.c %.h  makefile
+	${COMPILER} $< -c 
+
+remove:
+	rm -f *.o *~ ${EXES} ${CFILES}

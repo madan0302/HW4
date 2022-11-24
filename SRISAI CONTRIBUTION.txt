@@ -1,0 +1,12 @@
+I have worked on the following part:
+1  --> InitJob
+2  --> list_all_status
+3  --> JobsList
+4  --> Insert
+5  --> InitQueue
+6  --> FreeQueue
+7  --> FreeEntireQueue
+8  --> ParseArguments
+9 --> Main
+10 --> ReadInput
+11 --> processAllJobs
